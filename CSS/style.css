@@ -142,6 +142,11 @@ header .header-wrapper {
     font-weight: 500;
 }
 
+.our-story .watch {
+    display: block;
+    width: 50%;
+    float: left;
+}
 
 .our-story-faq {
     border-top: 8px solid rgb(66, 66, 66);
@@ -179,6 +184,7 @@ header .header-wrapper {
     font-size: 45px;
     font-weight: 500;
     color: #fff;
+    padding: 20px;
 }
 
 .form-faq {
