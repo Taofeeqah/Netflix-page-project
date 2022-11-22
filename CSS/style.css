@@ -195,3 +195,7 @@ header .header-wrapper {
     border-top: 8px solid rgb(66, 66, 66);
     background: #000;
 }
+
+.our-footer tr, p {
+    color: rgb(66, 66, 66);;
+}
