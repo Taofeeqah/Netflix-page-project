@@ -172,10 +172,11 @@ header .header-wrapper {
 
 .faq-content .plus {
    font-size: 24px;
+    color: #fff;
 }
 
 .our-story-faq h1 {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 500;
     color: #fff;
 }
