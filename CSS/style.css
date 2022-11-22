@@ -192,14 +192,14 @@ header .header-wrapper {
 }
 
 .our-footer {
-    margin: auto;
     border-top: 8px solid rgb(66, 66, 66);
     background: #000;
-    paddin: 60px;
+    padding: 60px 0;
 }
 
 .our-footer table {
     width: 60%;
+    margin: 0 auto;
 }
 .our-footer tr {
     color: rgb(94, 93, 93);
