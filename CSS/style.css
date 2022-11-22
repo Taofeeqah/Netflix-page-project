@@ -11,8 +11,14 @@ body {
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 
+.hero {
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.932)), url('/Images/Netflix\ background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 /* Header styling */
-.logo {
+.top .logo {
     width: 134px;
     height: 42px;
 }
@@ -22,27 +28,19 @@ body {
     color: #fff;
     border-radius: 4px;
     background-color: #e50914;
-    float: right;
     font-size: 1rem;
-    line-height: normal;
     padding: 7px 17px;
 }
 header .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
     padding: 20px 5px;
-    position: relative;
     width: 90%;
     margin: 0 auto;
 }
 
-.hero {
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.932)), url('/Images/Netflix\ background.jpg');
-    background-position: center;
-    background-size: cover;
-}
+/* First page content styling */
 
 .hero-section {
     height: 100vh;
@@ -57,9 +55,6 @@ header .header-wrapper {
     text-align: center;
 }
 
-.hero-text {
-    
-}
 .hero-text h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -76,15 +71,13 @@ header .header-wrapper {
     max-width: 950px;
 }
 
-#form-title {
+.form-control #form-title {
     font-size: 1.2rem;
-    max-width: none;
-    padding-bottom: 35px;
     font-weight: 500;
 }
 
 .input-control {
-    margin-top: 15px;
+    margin-top: 16px;
     display: flex;
 }
 .input-control #email {
@@ -94,15 +87,11 @@ header .header-wrapper {
 }
 
 .input-control button {
-    margin: 0;
-    padding: 0 5px;
-    margin-left: 1px black;
+    margin-left: 1px;
     width: 30%;
     color: #fff;
     background-color: #e50914;
     font-size: 1.625rem;
-    line-height: 50px;
-    font-weight: 500;
     border: none;
 }
 
