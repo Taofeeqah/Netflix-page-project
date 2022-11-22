@@ -192,10 +192,10 @@ header .header-wrapper {
 }
 
 .our-footer {
-    align-self: center;
+    margin: auto;
     border-top: 8px solid rgb(66, 66, 66);
     background: #000;
-    padding: 60px;
+    paddin: 60px;
 }
 
 .our-footer table {
