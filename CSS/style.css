@@ -195,6 +195,7 @@ header .header-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border-top: 8px solid rgb(66, 66, 66);
     background: #000;
 }
@@ -207,5 +208,5 @@ header .header-wrapper {
 }
 
 .our-footer td {
-    width: 25%;
+    width: 23%;
 }
