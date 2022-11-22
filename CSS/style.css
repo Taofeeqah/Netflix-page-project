@@ -192,6 +192,9 @@ header .header-wrapper {
 }
 
 .our-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-top: 8px solid rgb(66, 66, 66);
     background: #000;
 }
