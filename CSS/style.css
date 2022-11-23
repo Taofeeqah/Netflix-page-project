@@ -1,206 +1,220 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 body {
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
 
 .body {
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.932)), url('/Images/Netflix\ background.jpg');
-    background-position: center;
-    background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.822),
+      rgba(0, 0, 0, 0.26),
+      rgba(0, 0, 0, 0.932)
+    ),
+    url("/Images/Netflix\ background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 /* Header styling */
 .top .logo {
-    width: 134px;
-    height: 42px;
+  width: 134px;
+  height: 42px;
 }
 
 .sign-in {
-    text-decoration: none;
-    color: #fff;
-    border-radius: 4px;
-    background-color: #e50914;
-    font-size: 1rem;
-    padding: 7px 17px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #e50914;
+  font-size: 1rem;
+  padding: 7px 17px;
 }
 header .header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 5px;
-    width: 90%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* First page content styling */
 
 .hero-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section .content {
-    width: 50%;
-    color: white;
-    text-align: center;
+  width: 50%;
+  color: white;
+  text-align: center;
 }
 
 .hero-text h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    max-width: 640px;
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 640px;
 }
 
 .hero-text p {
-    font-size: 1.625rem;
-    margin: 1rem;
-    font-weight: 500;
+  font-size: 1.625rem;
+  margin: 1rem;
+  font-weight: 500;
 }
 
 .form-control {
-    max-width: 950px;
+  max-width: 950px;
 }
 
 .form-control #form-title {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
 }
 
 .input-control {
-    margin-top: 16px;
-    display: flex;
+  margin-top: 16px;
+  display: flex;
 }
 .input-control #email {
-    padding: 18px 5px;
-    font-size: 15px;
-    width: 70%;
+  padding: 18px 5px;
+  font-size: 15px;
+  width: 70%;
 }
 
 .input-control button {
-    margin-left: 0.25px;
-    width: 30%;
-    color: #fff;
-    background-color: #e50914;
-    font-size: 1.625rem;
-    border: none;
+  margin-left: 0.25px;
+  width: 30%;
+  color: #fff;
+  background-color: #e50914;
+  font-size: 1.625rem;
+  border: none;
 }
 
 .submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
 }
 .arrow {
-    width: 0.4em;
-    height: 0.4em;
-    border-right: 2px solid #fff;
-    border-top: 2px solid #fff;
-    transform: rotate(45deg);
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+  transform: rotate(45deg);
 }
 
 /* First page content styling */
 
 .our-story-content {
-    border-top: 8px solid rgb(66, 66, 66);
-    background: #000;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
+  border-top: 8px solid rgb(66, 66, 66);
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.our-story-card .image-card {
+    background-image: url('/Images/Netflix\ background.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .our-story-text {
-    text-align: left;
-    width: 50%;
+  text-align: left;
+  width: 50%;
 }
 
-.our-story-content h1, p {
-    color: #fff;
+.our-story-content h1,
+p {
+  color: #fff;
 }
 
 .our-story-content h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    max-width: 640px;
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 640px;
 }
 
 .our-story-content p {
-    font-size: 1.625rem;
-    font-weight: 500;
+  font-size: 1.625rem;
+  font-weight: 500;
 }
 
 .our-story .watch {
-    display: block;
-    width: 50%;
-    float: left;
+  display: block;
+  width: 50%;
+  float: left;
 }
 
 .our-story-faq {
-    border-top: 8px solid rgb(66, 66, 66);
-    background: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  border-top: 8px solid rgb(66, 66, 66);
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .faq-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(39, 39, 39);
-    margin: 9px;
-    padding: 17px;
-    width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+  margin: 9px;
+  padding: 17px;
+  width: 800px;
 }
 
 .faq-content .faq {
-     font-weight: 400;
-     font-size: 30px;
-     color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
 }
 
 .faq-content .plus {
-   font-size: 24px;
-    color: #fff;
+  font-size: 24px;
+  color: #fff;
 }
 
 .our-story-faq h1 {
-    font-size: 45px;
-    font-weight: 500;
-    color: #fff;
-    padding: 20px;
+  font-size: 45px;
+  font-weight: 500;
+  color: #fff;
+  padding: 20px;
 }
 
 .form-faq {
-    padding: 40px;
+  padding: 40px;
 }
 
 .our-footer {
-    border-top: 8px solid rgb(66, 66, 66);
-    background: #000;
-    padding: 60px 0;
+  border-top: 8px solid rgb(66, 66, 66);
+  background: #000;
+  padding: 60px 0;
 }
 
 .our-footer table {
-    width: 60%;
-    margin: 0 auto;
+  width: 60%;
+  margin: 0 auto;
 }
 .our-footer tr {
-    color: rgb(94, 93, 93);
+  color: rgb(94, 93, 93);
 }
