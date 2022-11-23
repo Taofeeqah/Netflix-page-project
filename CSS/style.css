@@ -130,9 +130,9 @@ header .header-wrapper {
 }
 
 .our-story-card .image-card {
-    background-image: url('/Images/Netflix\ background.jpg');
-    background-position: center;
-    background-size: cover;
+  background-image: url("/Images/Netflix\ background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .our-story-text {
@@ -142,6 +142,7 @@ header .header-wrapper {
 
 .our-story-content h1,
 p {
+    padding: 6px;
   color: #fff;
 }
 
